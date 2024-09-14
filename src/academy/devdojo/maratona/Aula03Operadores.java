@@ -22,6 +22,22 @@ public class Aula03Operadores {
         System.out.println("isDezMaiorQueVinte " + isDezMaiorQueVinte);
         System.out.println("isDezMenorQueVinte " + isDezMenorQueVinte);
         System.out.println("isDezDiferenteDez " + isDezDiferenteDez);
+        // && (AND) // (or) !
+        int idade = 35;
+        float salario = 3500F;
+        boolean isDentroDaLeiMaiorQueTrinta = idade > 30 && salario >= 4612;
+        boolean isDentroDaLeiMenorQueTrinta = idade < 30 && salario >= 3381;
+
+        System.out.println("isDentroDaLeiMaiorQueTrinta " + isDentroDaLeiMaiorQueTrinta);
+        System.out.println("isDentroDaLeiMenorQueTrinta " + isDentroDaLeiMenorQueTrinta);
+
+        double valorTotalContaCorrente = 200;
+        double valorTotalContaPoupanca = 200;
+        float valorPlaystation = 500F;
+       boolean isPlaystationCincoCompravel =  valorTotalContaCorrente > valorPlaystation || valorTotalContaPoupanca > valorPlaystation;
+        System.out.println("isPlaystationCincoCompravel " + isPlaystationCincoCompravel);
+
+
 
     }
 }
